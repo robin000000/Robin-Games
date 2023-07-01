@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+body{
+    background-color:black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.logo{
+    height: 70px;
+    width: 100px;
+    background-image: url(logo.png);
+    background-size: cover;
+}
+
+.nav-search{
+    display: flex;
+    height: 30px;
+    width: 500px;
+    justify-content: space-evenly;
+    
+}
+
+.search-type{
+    width: 500px;
+    border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+.search-icon{
+    color: black;
+   background-color: orange;
+   width: 40px;
+   font-size:large;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+
+}
+
+/* Main */
+
+
+.Games{
+    height: 600px;
+    width: 100%;    
+    box-sizing: border-box;
+}
+
+.game img{
+    border-radius: 10px;
+    height: 500px;
+    width: 50%;
+    background-image: url(today.jpg);
+    background-size:cover;
+}
+.game video{
+    height: 500px;
+    width: 50%;
+}
+
+
+.game h2{
+  color: white;
+  background-color: black;
+  padding-left: 60px;
+}
+
+.more{
+    margin-top: 20px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+}
+
+.input img{
+    height: 200px;
+    width: 200px;
+}
